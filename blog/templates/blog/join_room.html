@@ -1,0 +1,23 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instructions</title>
+</head>
+<body>
+<br>
+<h1>Instructions to download</h1>
+<br>
+<img src = {% static 'blog/images/instr.jpg' %}>
+<br>
+<br>
+<a class="btn btn-primary btn-d flex-last" href="http://104.215.197.138:11112/download-config.py"><i class="fas fa-download"></i> Start Download</a> 
+
+
+</body>
+</html> 
+
+
+{% endblock content %}
